@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />  <!--リセットCSS-->
-  <link rel="stylesheet" href="http://ec2-54-90-183-230.compute-1.amazonaws.com/php/css/commonSytle.css">
-  <link rel="stylesheet" href="http://ec2-54-90-183-230.compute-1.amazonaws.com/php/css/header.css" />
+  <link rel="stylesheet" href="css/commonSytle.css">
+  <link rel="stylesheet" href="css/header.css" />
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"><!-- フォントオーサム -->
 </head>
 <body>
   <!-- ヘッダー -->
   <div class="head-area">
 
-    <header class="wrapper">
+    <header class="">
       <a href="index.php">
         <div class="logo">
           <div class="logo-icon"><i class="fab fa-canadian-maple-leaf"></i></div>
@@ -49,6 +49,7 @@
       </nav>
       
     </header>
+    </div>
     <?php
       // フラッシュメッセージ
       if (isset($_SESSION['message'])) {
@@ -58,7 +59,6 @@
         unset($_SESSION['message']);
       }
       ?>
-    </div>
     <div class="header-blank"></div>
 
     <script src="js/jquery-3.2.1.min.js"></script>

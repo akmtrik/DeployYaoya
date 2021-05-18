@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />  <!--リセットCSS-->
-    <link rel="stylesheet" href="http://ec2-54-90-183-230.compute-1.amazonaws.com/php/css/login.css">
+    <link rel="stylesheet" href="css/login.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"><!-- フォントオーサム -->
     <title>野菜を採るなら大原♪｜新規登録</title>
   </head>
