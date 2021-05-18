@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />  <!--リセットCSS-->
-  <link rel="stylesheet" href="css/commonSytle.css">
-  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="php/css/commonSytle.css">
+  <link rel="stylesheet" href="php/css/header.css" />
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"><!-- フォントオーサム -->
 </head>
 <body>
