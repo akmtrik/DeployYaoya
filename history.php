@@ -45,7 +45,7 @@
                   <th class="cart-th2">価格(税込)</th>
                   <th class="cart-th3">注文数</th>
                   <th class="cart-th4">小計(税込)</th>
-                  <th class="cart-th5">取消</th>
+                  <!-- <th class="cart-th5">取消</th> -->
                 </tr>
                 
 <?php              
@@ -55,13 +55,13 @@
 ?>
                     <tr class="td-tr">
                       <td class="product-img-cell">
-                        <a href="#"><img class="cart-product-img" src="images/<?= $row2['image_name'] ?>" alt=""></a>
-                        <a href="#"><?= $row2['name'] ?></a>
+                        <a href="product_detail.php?id=<?= $row2['product_id'] ?>"><img class="cart-product-img" src="images/<?= $row2['image_name'] ?>" alt=""></a>
+                        <a href="product_detail.php?id=<?= $row2['product_id'] ?>"><?= $row2['name'] ?></a>
                       </td>
-                      <td><?= $row2['price'] ?></td>
+                      <td><?= number_format($row2['price'])  ?></td>
                       <td><?= $row2['count'] ?></td>
-                      <td><?= $subTotal ?></td>
-                      <td><a href="#"><i class="trash-icon fas fa-trash-alt"></i></a></td>
+                      <td><?= number_format($subTotal) ?></td>
+                      <!-- <td><a href="#"><i class="trash-icon fas fa-trash-alt"></i></a></td> -->
                     </tr>
 <?php
               }
@@ -70,8 +70,8 @@
                       <td></td>
                       <td></td>
                       <td>合計</td>
-                      <td class="history-total"><?= $total ?>円</td>
-                      <td></td>
+                      <td class="history-total"><?= number_format($total) ?>円</td>
+                      <!-- <td></td> -->
                     </tr>
 <?php
             }
