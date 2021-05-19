@@ -9,6 +9,4 @@ permissions:
     group: nginx
     pattern: "**"
     mode: 775
-    type:
-      - file
-      - directory
+
